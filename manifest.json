@@ -1,0 +1,17 @@
+{
+  "name": "WikIt",
+  "description": "any highlighted text with ctr+. will open the word in a new tab in wikipedia",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["jquery-1.10.2.min.js","main.js"],
+    "css": ["style.css"]
+  }],
+
+  "manifest_version": 1
+}
