@@ -28,6 +28,7 @@ $(function(){
  
     // binding the key-press
     $( "body" ).on( "keydown keypress", keyHandler );
+    });
     
     
     //chuck-norrisism
